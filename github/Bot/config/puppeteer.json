@@ -1,0 +1,20 @@
+{
+  "base_url": "https://github.com",
+  "username": "",
+  "password": "",
+  "searchUsername": "charlie",
+  "settings": {
+    "headless": false,
+    "max_amount_pages": 10
+  },
+  "selectors": {
+    "home_to_login_button": "a[href='/login']",
+    "username_field": "input[name='login']",
+    "password_field": "input[name='password']",
+    "login_button": "input[type='submit']",
+    "list_username": "div.user-list-item:nth-child(INDEX) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > a:nth-child(1)",
+    "list_email": "#user_search_results > div.user-list > div:nth-child(1) > div.flex-auto > div.d-flex.flex-wrap.text-small.text-gray > div:nth-child(2) > a",
+    "length_selector": "user-list-item"
+
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "base_url": "https://instagram.com",
+  "username": "mathias02300",
+  "password": "puppeteerisgood",
+  "searchHashtag": [
+     "moto", "velo"
+  ],
+  "settings": {
+    "headless": false,
+    "max_amount_posts": 9
+  },
+  "selectors": {
+    "username_field": "input[name='username']",
+    "password_field": "input[name='password']",
+    "login_button": "button[type='submit']",
+    "photo_selector": "#react-root > section > main > article > div > div > div > div:nth-child(INDEX) > div:nth-child(INDEX) > a",
+    "list_username": "header > div > div > div > span > a",
+    "follow_button": "header > div > div > div > button",
+    "like_button": "body > div > div > div > article > div > section > span > button > div > span > svg",
+    "close_post": "body > div > div > button > div > svg"
+  }
+}
